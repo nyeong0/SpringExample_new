@@ -36,7 +36,7 @@ public class ReviewController {
 		// 4, 치즈피자, 강수녕, 4.5, 치즈피자 존맛!!
 //		int count = reviewService.addReview(4, "치즈피자", "강수녕", 4.5, "치즈피자 존맛");
 		
-		/// 2, 뿌링클, 강수녕, 4.0, 역시 뿌링클은 진리
+		// 2, 뿌링클, 강수녕, 4.0, 역시 뿌링클은 진리
 		Review review = new Review();
 		review.setStoreId(2);
 		review.setMenu("뿌링클");
@@ -47,7 +47,6 @@ public class ReviewController {
 		int count = reviewService.addReviewByObject(review);
 		// 입력 개수 : 1
 		return "입력 개수 : " + count;
-		
 		
 	}
 	

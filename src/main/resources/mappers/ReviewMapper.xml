@@ -43,9 +43,8 @@
 	
 	</insert>
 	
-	<insert id="insertReviewByObject" parameterType="com.nyeong.spring.ex.mybatis.repository.ReviewRepository">
-			INSERT INTO
-				`new_review`
+	<insert id="insertReviewByObject" parameterType="com.nyeong.spring.ex.mybatis.domain.Review">
+		INSERT INTO `new_review`
 		(
 			`storeId`
 			,`menu`
